@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description:
-  Sample CF S3 Bucket creation
+  Updated to view change set implemented
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
