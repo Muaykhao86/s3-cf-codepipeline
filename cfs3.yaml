@@ -11,6 +11,6 @@ Resources:
         Protocol: email
 Outputs:
   BucketName:
-    Value: Ref S3Bucket
+    Value: !Ref S3Bucket
     Description: Name of the AWS S3 Bucket
 
