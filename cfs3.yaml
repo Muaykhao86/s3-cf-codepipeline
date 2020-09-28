@@ -7,8 +7,8 @@ Resources:
     Type: 'AWS::SNS::Topic'
     Properties:
       Subscription:
-        Endpoint: danielhardiman@live.co.uk
-        Protocol: email
+        - Endpoint: danielhardiman@live.co.uk
+          Protocol: email
 Outputs:
   BucketName:
     Value: !Ref S3Bucket
