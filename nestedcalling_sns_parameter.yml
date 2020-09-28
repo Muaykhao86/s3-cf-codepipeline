@@ -9,7 +9,7 @@ Resources:
     Properties: 
       Parameters:
         SNSEmail: !Ref Emailaddress
-      TemplateURL: https://udemycdkbucket.s3-us-west-2.amazonaws.com/sns_parameter_example.json
+      TemplateURL: https://nested-cft-bucket-demo.s3.amazonaws.com/sns-template-parameter.yml
       TimeoutInMinutes: 60
 Outputs:
   StackRef:
